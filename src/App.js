@@ -1,9 +1,10 @@
 
 import './App.css';
-import Footer from './componentes/footer/footer';
-import Home from './componentes/home/home';
-import Intro from './componentes/intro/intro';
-import Navbar from './componentes/NavBar/Navbar';
+import Header from './Sections/Header/Header';
+import NavBar from './Sections/Navbar/Navbar';
+import Main from './Sections/Main/Main';
+import Footer from './Sections/Footer/footer';
+
 
 
 
@@ -12,9 +13,10 @@ import Navbar from './componentes/NavBar/Navbar';
 function App() {
   return (
     <div className="App">
-    <Home />
-  <Navbar />
-    <Footer />
+      <Header />
+      <NavBar />
+      <Main />
+      <Footer />
 
 
 
@@ -23,3 +25,6 @@ function App() {
 }
 
 export default App;
+
+
+

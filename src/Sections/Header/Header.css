@@ -1,0 +1,19 @@
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #dcc69c;
+}
+
+.logoHeader {
+    width: 10vh;
+    height: 10vh;
+}
+
+.title {
+    color: #93435b;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1vh ;
+}
