@@ -9,7 +9,6 @@ import Footer from './Sections/Footer/footer';
 
 
 
-
 function App() {
   return (
     <div className="App">
