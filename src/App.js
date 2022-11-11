@@ -19,8 +19,8 @@ function App() {
       <Header />
       <NavBar/>
       <Main />
-      <Footer />
       <Boot />
+      <Footer />
 
     </div>
   );
