@@ -1,7 +1,6 @@
 import React from "react";
-import Logo from "./logoDhermica.png";
+import Logo from './logoDhermica.png';
 import './Header.css';
-
 
 const Header = () => {
     return(

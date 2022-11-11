@@ -1,9 +1,10 @@
 
 import './App.css';
 import Header from './Sections/Header/Header';
-import NavBar from './Sections/Navbar/Navbar';
-import Main from './Sections/Main/Main';
-import Footer from './Sections/Footer/footer';
+import NavBar from './Sections/NavBar/NavBar';
+import Main from './Sections/Main/Main'
+import Footer from './Sections/Footer/Footer'
+
 
 
 
@@ -13,9 +14,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <NavBar />
+      <NavBar/>
       <Main />
       <Footer />
+
 
 
 
@@ -24,6 +26,3 @@ function App() {
 }
 
 export default App;
-
-
-
