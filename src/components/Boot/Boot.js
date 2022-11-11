@@ -1,15 +1,18 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './Boot.css'
 import Carousel from 'react-bootstrap/Carousel';
+import Promo1 from './promoDepi.png'
+import Promo2 from './promoFacial.png'
+import Promo3 from './promoManiPedi.png'
 
-function UncontrolledExample() {
+function CarouselFadeExample() {
   return (
-    <Carousel>
+    <div className='Carousel'>
+    <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          className="d-block w-20"
+          src={Promo1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,8 +22,8 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          className="d-block w-20"
+          src={Promo2}
           alt="Second slide"
         />
 
@@ -31,8 +34,8 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          className="d-block w-20"
+          src={Promo3}
           alt="Third slide"
         />
 
@@ -44,7 +47,8 @@ function UncontrolledExample() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 
-export default UncontrolledExample;
+export default CarouselFadeExample;

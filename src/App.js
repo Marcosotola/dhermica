@@ -4,6 +4,9 @@ import Header from './Sections/Header/Header';
 import NavBar from './Sections/NavBar/NavBar';
 import Main from './Sections/Main/Main'
 import Footer from './Sections/Footer/Footer'
+import Boot from './Components/Boot/Boot'
+
+
 
 
 
@@ -17,9 +20,7 @@ function App() {
       <NavBar/>
       <Main />
       <Footer />
-
-
-
+      <Boot />
 
     </div>
   );
