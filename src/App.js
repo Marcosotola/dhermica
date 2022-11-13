@@ -3,8 +3,9 @@ import './App.css';
 import Header from './Sections/Header/Header';
 import Main from './Sections/Main/Main'
 import Footer from './Sections/Footer/Footer'
-import Boot from './Components/Boot/Boot'
-import Menu from './Components/Menu/Menu'
+import NavBar from './Components/NavBar/NavBar';
+
+
 
 
 
@@ -18,11 +19,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Menu />
+      <NavBar />
       <Main />
-      <Boot />
       <Footer />
-      
+
+
 
     </div>
   );

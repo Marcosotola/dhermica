@@ -9,7 +9,7 @@ import './Menu.css'
 function NavScrollExample() {
   return (
     <div className='menu'>
-    <Navbar bg="" expand="lg">
+    <Navbar bg="" expand="lg" variant='dark'>
       <Container fluid>
         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
