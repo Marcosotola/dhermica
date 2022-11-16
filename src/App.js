@@ -1,10 +1,12 @@
 
+import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 import './App.css';
-import Header from './Sections/Header/Header';
-import Main from './Sections/Main/Main'
-import Footer from './Sections/Footer/Footer'
-import NavBar from './Components/NavBar/NavBar';
-
+import Header from './Sections/Header/Header'
+import Navbar from './Components/Navbar/Navbar'
+import Inicio from './Components/Inicio/Inicio';
+import Tratamientos from './Components/Tratamientos/Tratamientos';
+import Productos from './Components/Productos/Productos';
+import Contacto from './Components/Contacto/Contacto';
 
 
 
@@ -18,10 +20,18 @@ import NavBar from './Components/NavBar/NavBar';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <NavBar />
-      <Main />
-      <Footer />
+
+      <Router>
+        <Header />
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Inicio} />
+          <Route exact path="/tratamientos" component={Tratamientos} />
+          <Route exact path="/productos" component={Productos} />
+          <Route exact path="/contacto" component={Contacto} />
+        </Switch>
+      </Router>
+
 
 
 
