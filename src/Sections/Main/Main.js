@@ -1,14 +1,14 @@
 
 import React from "react";
 import './Main.css';
-import Boot from './Boot/Boot'
+import Slider from './Components/Slider/Slider'
 
 
 function Main() {
     return (
         <main>
             <h3 className="promo">PROMOCIONES!!</h3>
-            <Boot />
+            <Slider/>
             
 
 
