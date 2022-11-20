@@ -35,8 +35,6 @@
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
-    /**border: 1px solid #cf898b;
-border-radius: 5px ;*/
 }
 
 .mobile-menu-icon {
@@ -47,6 +45,26 @@ border-radius: 5px ;*/
     border-radius: 30%;
     display: none;
 }
+
+.active{
+    background-color: #dcc69c;
+    color: #93435b;
+    border-radius: 10px;
+}
+.inicio:hover{
+    color: #ed0bde;
+}
+.tratamientos:hover{
+    color: #ed0bde;
+}
+.productos:hover{
+    color: #ed0bde;
+}
+.contacto:hover{
+    color: #ed0bde;
+}
+
+
 
 @media screen and (max-width: 780px) {
     .logo {
@@ -60,6 +78,7 @@ border-radius: 5px ;*/
     .nav-links {
         display: none;
     }
+    
 
     .nav-links-mobile {
         position: absolute;
@@ -83,8 +102,8 @@ border-radius: 5px ;*/
         text-align: center;
         padding: 32px;
         width: 100%;
-
     }
+
 
     .mobile-menu-icon {
         font-weight: bold;

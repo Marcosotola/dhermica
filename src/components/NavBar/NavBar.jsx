@@ -11,22 +11,22 @@ export const Navbar = () => {
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
             onClick={() => setIsMobile(false)}>
             <li>
-                <NavLink to="/" className='inicio'>
+                <NavLink exact to="/" className='inicio' activeClassName='active'>
                     Inicio
                 </NavLink>
                 </li>
                 <li>
-                <NavLink to="/Tratamientos" className='tratamientos'>
+                <NavLink exact to="/Tratamientos" className='tratamientos' activeClassName='active'>
                     Tratamientos
                 </NavLink>
                 </li>
                 <li>
-                <NavLink to="/Productos" className='productos'>
+                <NavLink exact to="/Productos" className='productos' activeClassName='active'>
                     Productos
                 </NavLink>
                 </li>
                 <li>
-                <NavLink to="/Contacto" className='contacto'>
+                <NavLink exact to="/Contacto" className='contacto' activeClassName='active'>
                     Contacto
                 </NavLink>
                 </li>

@@ -1,7 +1,7 @@
 
 import React from "react";
 import './Main.css';
-import Slider from './Components/Slider/Slider'
+import Slider from './Components/Slider/Slider';
 
 
 function Main() {
