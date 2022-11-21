@@ -1,26 +1,27 @@
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     height: 200vh;
     background-color: #e5bfbc;
     display: grid;
-    grid-template: 4fr 2fr / 1.5fr 1.5fr 2fr;
-    grid-template-areas: 
-    "main main aside"
-    "section article aside";
+    grid-template: 3fr 2fr / 1.5fr 1.5fr 2fr;
+    grid-template-areas:
+        "main main aside"
+        "section article aside";
 }
 
-.main{
+.main {
     grid-area: main;
-background-color: white;
-border-radius: 30px;
-margin: 30px;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.aside{
+
+.aside {
     grid-area: aside;
     display: flex;
     flex-direction: column;
@@ -28,65 +29,86 @@ align-items: center;
     align-items: center;
 }
 
-.section{
+.section {
     grid-area: section;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.article{
+.article {
     grid-area: article;
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.trata{
-    width: 470px;
+.title{
+    width: 90%;
+}
+
+.trata {
+    width: 90%;
     border-radius: 40px;
 }
 
-.turnos{
-    width: 470px;
-    border-radius: 60px 0 ;
+.turnos {
+    width: 90%;
+    border-radius: 60px 0;
 }
+
 .promo {
+    width: 70%;
+    margin-bottom: 2rem;
     padding: 2rem;
     border-radius: 30px;
     border: #78374b solid;
     font-size: xx-large;
+    font-weight: bold;
     letter-spacing: 0.5rem;
     color: #93435b;
+
     animation-name: promo;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     position: relative;
     z-index: 1;
 }
+
 @keyframes promo {
-0% {color: #93435b;}
-50% {color: #dcc69c;}
+    0% {
+        color: #93435b;
+    }
+
+    50% {
+        color: #dcc69c;
+    }
 
 }
 
-.mimate{
-    padding: 10px;
-    font-size: xx-large;
-    color: #78374b ;
-    border: solid #78374b;
-    border-radius: 20px;
+.mimate {
+    width: 90%;
 }
 
-.somos{
-    padding: 1rem;
-    width: 470px;
-    font-size: xx-large;
-    border: #78374b solid;
-    border-radius: 30px;
-    color: #996466;
-}
-
-.llamanos{
-    width: 400px;
+.somos {
+    width: 90%;
     border-radius: 30px;
     border: #78374b solid;
+}
+
+.llamanos {
+    width: 90%;
+    border-radius: 30px;
+    border: #78374b solid;
+}
+
+.regalate {
+    width: 90%;
+    border-radius: 30px;
+    border: #78374b solid;
+}
+
+.productos {
+    width: 90%;
+    border-radius: 60px 0;
 }
