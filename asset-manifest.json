@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Marcosotola/dhermica-app/static/css/main.ac2b3101.css",
+    "main.js": "/Marcosotola/dhermica-app/static/js/main.6af87004.js",
+    "static/media/Tratamientos.png": "/Marcosotola/dhermica-app/static/media/Tratamientos.069c1be649d358c3219a.png",
+    "static/media/cejasPestañas.png": "/Marcosotola/dhermica-app/static/media/cejasPestañas.63d02de5d42f6e9d553d.png",
+    "static/media/cosme.png": "/Marcosotola/dhermica-app/static/media/cosme.7f2a4d03bbf7361e4fd3.png",
+    "static/media/corpo.png": "/Marcosotola/dhermica-app/static/media/corpo.b2cb2a04c6a226c3f6a4.png",
+    "static/media/depi.png": "/Marcosotola/dhermica-app/static/media/depi.0825022443f3a479df28.png",
+    "static/media/manosPies.png": "/Marcosotola/dhermica-app/static/media/manosPies.563afe7a67aed554369a.png",
+    "static/media/Regalate.png": "/Marcosotola/dhermica-app/static/media/Regalate.abd5e0c450e0a4a90487.png",
+    "static/media/productos.png": "/Marcosotola/dhermica-app/static/media/productos.aa702bcb5d705d78d0ff.png",
+    "static/media/promoDepi.png": "/Marcosotola/dhermica-app/static/media/promoDepi.52de33ccb0ad678dfe38.png",
+    "static/media/promoFacial.png": "/Marcosotola/dhermica-app/static/media/promoFacial.b4af5c82a4bfedb113eb.png",
+    "static/media/productos.jpeg": "/Marcosotola/dhermica-app/static/media/productos.c27ea6ea2dacdb9f3a1c.jpeg",
+    "static/media/promoManiPedi.png": "/Marcosotola/dhermica-app/static/media/promoManiPedi.184c2dd4aba2ba5d7892.png",
+    "static/media/Llamanos.png": "/Marcosotola/dhermica-app/static/media/Llamanos.f1402a27c17cd35147cf.png",
+    "static/media/logoDhermica.png": "/Marcosotola/dhermica-app/static/media/logoDhermica.d32ce866ea6f5e955f2d.png",
+    "static/media/Turnos.png": "/Marcosotola/dhermica-app/static/media/Turnos.04ac7c102818db01149d.png",
+    "static/media/Title.png": "/Marcosotola/dhermica-app/static/media/Title.1f23d67270823429ddc3.png",
+    "static/media/Mimate.png": "/Marcosotola/dhermica-app/static/media/Mimate.f29cedf68a29b4350087.png",
+    "index.html": "/Marcosotola/dhermica-app/index.html",
+    "main.ac2b3101.css.map": "/Marcosotola/dhermica-app/static/css/main.ac2b3101.css.map",
+    "main.6af87004.js.map": "/Marcosotola/dhermica-app/static/js/main.6af87004.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac2b3101.css",
+    "static/js/main.6af87004.js"
+  ]
+}
