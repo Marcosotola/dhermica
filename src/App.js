@@ -7,6 +7,7 @@ import Inicio from './Components/Inicio/Inicio';
 import Tratamientos from './Components/Tratamientos/Tratamientos';
 import Productos from './Components/Productos/Productos';
 import Contacto from './Components/Contacto/Contacto';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/productos" component={Productos} />
           <Route exact path="/contacto" component={Contacto} />
         </Switch>
+        <Footer />
       </Router>
 
 

@@ -9,7 +9,7 @@ const DataTratamientos =[
     {
         img:Cosme,
         title:"Cosmeatría y Cosmetología",
-        description: "Elegí el tratamiento ideal para pieles oleosas, secas, rosaceas o poros dilatados. Conocé nuestros servicios.",
+        description: "Elegí el tratamiento ideal para pieles oleosas, secas, rosaceas o poros dilatados.",
         link: "/Cosme",
     },
     {
@@ -21,7 +21,7 @@ const DataTratamientos =[
     {
         img:ManosPies,
         title:"Manos y Pies",
-        description: "Además de la belleza de tu rostro, hacé brillar tus manos y pies con estos tratamientos",
+        description: "Además de la belleza de tu rostro, hacé brillar tus manos y pies",
         link:"/ManosPies",
     },
     {
