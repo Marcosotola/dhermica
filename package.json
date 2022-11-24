@@ -1,5 +1,6 @@
-{"homepage":"https://marcosotola.github.io/dhermica",
-  "name": "dhermica-app",
+{
+  "homepage": "https://marcosotola.github.io/dhermica",
+  "name": "dhermica",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -56,4 +57,3 @@
     "gh-pages": "^4.0.0"
   }
 }
-
