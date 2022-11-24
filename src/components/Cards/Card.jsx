@@ -18,10 +18,10 @@ const Card = (props) => {
                             {value.description}
                         </p>
                         <p className='link'>
-                     <a  href={value.link}>
-                        Ver Mas
-                     </a>
-                     </p>
+                            <a href={value.link}>
+                                Ver Mas
+                            </a>
+                        </p>
                     </div>
                 </div>
             ))};

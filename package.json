@@ -1,6 +1,6 @@
 {
   "homepage": "https://marcosotola.github.io/dhermica",
-  "name": "dhermica",
+  "name": "dhermica-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

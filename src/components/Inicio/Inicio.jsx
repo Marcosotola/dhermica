@@ -9,7 +9,7 @@ import Mimate from '../Image/Aside/Mimate.png';
 import Regalate from '../Image/Article/Regalate.png';
 import Productos from '../Image/Aside/productos.png';
 import Title from './Title.png';
-import { LineWeightOutlined } from '@mui/icons-material';
+
 
 
 export const Inicio = () => {
