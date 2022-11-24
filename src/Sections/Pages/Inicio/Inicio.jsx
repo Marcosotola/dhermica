@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Tratamientos from '../Image/Aside/Tratamientos.png';
 import Turnos from '../Image/Aside/Turnos.png';
 import Llamanos from '../Image/Section/Llamanos.png';
-import Slider from '../Slider/Slider';
+import Slider from '../../../Components/Slider/Slider';
 import Mimate from '../Image/Aside/Mimate.png';
 import Regalate from '../Image/Article/Regalate.png';
 import Productos from '../Image/Aside/productos.png';
